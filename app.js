@@ -56,7 +56,7 @@ const solve = () => {
         headers: {
             'content-type': 'application/json',
             'X-RapidAPI-Host': 'solve-sudoku.p.rapidapi.com',
-            'X-RapidAPI-Key': process.env.RAPID_API_KEY
+            'X-RapidAPI-Key': 'b382ab96bfmsh3b6a91ddf42e986p163ed8jsn2847a6ef3ca8'
         },
         data: {
             puzzle: data
